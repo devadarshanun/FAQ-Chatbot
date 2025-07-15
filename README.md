@@ -24,5 +24,37 @@ An intelligent FAQ chatbot system that can understand user questions and respond
    - It finds the most similar question in the dataset
    - Returns the corresponding answer
 
+# Requirements:
+- Python 3.10 or later
+- pip (Python package manager)
+- Internet connection (for first-time NLTK downloads)
+
+# Installation Instructions:
+
+1. Open your terminal / PowerShell and navigate to the project directory:
+   cd path/to/faq_chatbot
+
+2. (Optional but recommended) Create and activate a virtual environment:
+   python -m venv venv
+   venv\Scripts\activate     [for Windows]
+   source venv/bin/activate    [for Mac/Linux]
+
+3. Install all required packages:
+   pip install -r requirements.txt
+
+# How to Run the Chatbot:
+
+Use the following command to launch the chatbot in your web browser:
+
+streamlit run chatbot_faq_improved.py
+
+OR (if `streamlit` is not globally available):
+
+ python -m streamlit run chatbot_faq_improved.py
+
+
+# Access the Chatbot:
+Once running, the chatbot will open at:
+http://localhost:8501
 
 
